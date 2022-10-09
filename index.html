@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="containeer py-5">
+        <div class="w-50">
+            <form>
+                <div class="form-group">
+                    <h2>Tính Lương</h2>
+                    <label>Nhập lương một ngày</label>
+                  <input type="number" class="form-control" id="luongNgay" >
+
+                    <label>Nhập số ngày làm</label>
+                  <input type="number" class="form-control" id="soNgaylam" >
+                </div>
+                
+                <button type="button" id="btnTinh" class="btn btn-danger">Tính Lương</button>
+                <p id="txtKetqua" class="alert alert-danger"></p>
+              </form>
+
+              <form>
+                <h2>Tính Trung Bình Cộng</h2>
+                <div class="form-group">
+                  <label for="">Số thứ 1</label>
+                  <input type="number1" class="form-control" id="number1" >
+                </div>
+                <div class="form-group">
+                    <label for="">Số thứ 2</label>
+                    <input type="number2" class="form-control" id="number2" >
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="">Số thứ 3</label>
+                    <input type="number3" class="form-control" id="number3" >
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="">Số thứ 4</label>
+                    <input type="number4" class="form-control" id="number4" >
+                  </div>
+                
+                  <div class="form-group">
+                    <label for="">Số thứ 5</label>
+                    <input type="number5" class="form-control" id="number5" >
+                  </div>
+    
+                  <button type="button" id="btnTrungBinh" class="btn btn-primary"> Tính nào</button>
+                  <p id="result" class="alert alert-primary"></p>
+                
+              </form>
+    
+
+              <form>
+                <div class="form-group">
+                    <h2>Đổi Tiền USD</h2>
+                    <label>Nhập số tiền cần đổi</label>
+                  <input type="number" class="form-control" id="soTien" >
+                </div>
+                
+                <button type="button" id="btnTinhtien" class="btn btn-success">Quy đổi </button>
+                <p id="txtDoitien" class="alert alert-success"></p>
+              </form>
+
+              <form>
+                <div class="form-group">
+                    <h2> Tính Chu Vi, Diện Tích Hình Chữ Nhật</h2>
+                    <label>Chiều dài</label>
+                  <input type="number" class="form-control" id="chieuDai" >
+                  <label>Chiều rộng</label>
+                  <input type="number" class="form-control" id="chieuRong" >
+                </div>
+                
+                <button type="button" id="btnCalc" class="btn btn-info">Tính Nào </button>
+                <p id="txtNotify" class="alert alert-info"></p>
+              </form>
+              <form>
+                <div class="form-group">
+                    <h2> Tính Tổng 2 Ký Số</h2>
+                    <label>Nhập số </label>
+                  <input type="number" class="form-control" id="soCantinh">
+                </div>
+                
+                <button type="button" id="btnTongky" class="btn btn-secondary">Tính Tổng</button>
+                <p id="txtrels" class="alert alert-secondary"></p>
+              </form>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+        <script src="./js/bai1.js"></script>
+        <!-- <script src="./js/bai2.js"></script> -->
+        <!-- <script src="./js/bai3.js"></script> -->
+        <!-- <script src="./js/bai4.js"></script> -->
+        <!-- <script src="./js/bai5.js"></script> -->
+</body>
+</html>
